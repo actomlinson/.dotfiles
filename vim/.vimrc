@@ -19,3 +19,7 @@ set expandtab
 
 " needed in tmux for reasons I don't understand
 set background=dark
+
+" set different rules for filetypes. files are in
+" ~/.vim/ftplugin/(filetype).vim
+filetype plugin on
