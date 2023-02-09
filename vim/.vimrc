@@ -23,3 +23,7 @@ set background=dark
 " set different rules for filetypes. files are in
 " ~/.vim/ftplugin/(filetype).vim
 filetype plugin on
+
+" Look for tags files. Looks first for `./tags`. The `;/` syntax means look
+" through parent directories.
+set tags=./tags,./TAGS,tags;/,TAGS;/
