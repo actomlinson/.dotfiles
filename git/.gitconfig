@@ -4,5 +4,6 @@ email = actomlin@ucsd.edu
 [core]
 autocrlf = input
 editor = vim
+excludesfile = /home/amanda/.gitignore
 [init]
 defaultBranch = main
